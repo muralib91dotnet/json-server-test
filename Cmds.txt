@@ -12,4 +12,6 @@ npm -g i .
 Debug nodeJs app with cmd line args:
 ref: https://stackabuse.com/command-line-arguments-in-node-js/
 
+node --inspect-brk <JsFileName> --fileName=db.json
+OR
 node --inspect-brk . --fileName=db.json
