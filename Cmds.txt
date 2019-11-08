@@ -1,0 +1,15 @@
+json-server-cmds:
+json-server --watch <json.filename>
+json-server --watch <json.filename> --routes <routes.json.filename>
+
+
+converting the current app to CLI:
+ref: https://developer.okta.com/blog/2019/06/18/command-line-app-with-nodejs
+
+npm -g i .
+
+
+Debug nodeJs app with cmd line args:
+ref: https://stackabuse.com/command-line-arguments-in-node-js/
+
+node --inspect-brk . --fileName=db.json
